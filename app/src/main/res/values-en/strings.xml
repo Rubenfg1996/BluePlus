@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Blue+</string>
+    <string name="action_settings">Close sesion</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="btnRegistro">Sign in</string>
+    <string name="btnCancelar">Cancel</string>
+    <string name="hintCorreo">E-mail</string>
+    <string name="hintContra">Password</string>
+    <string name="hintNomUsu">Name</string>
+    <string name="hintUusario">User</string>
+    <string name="hintApeUsu">Surname</string>
+    <string name="hintEdadUsu">Age</string>
+    <string name="hintCarnetUsu">Years of licence</string>
+
+    <string name="viajePublicado">The trips has been published correctly</string>
+
+    <string name="btnEntrar">Entry</string>
+    <string name="tvRegistro">HAVE YOU GOT AN ACCOUNT?</string>
+
+    <string name="toastEmailVacio">The email is empty</string>
+    <string name="toastNombreVacio">The name is empty</string>
+    <string name="toastUsuarioVacio">The user is empty</string>
+    <string name="toastApeVacio">The surname is empty</string>
+    <string name="toastEdadVacio">The age is empty</string>
+    <string name="toastAñosCarnetVacio">The years of licence are empty</string>
+    <string name="toastContraVacia">The password need 6 characters</string>
+    <string name="toastFechaVacia">The data has to be defined </string>
+    <string name="toastHoraVacia">The time has to be defined</string>
+    <string name="toastPrecioVacia">The price has to be established</string>
+    <string name="toastNumPlazasVacia">Insert the number of seats</string>
+    <string name="toastNumPlazasMayor">You can only introduce 6 seats</string>
+    <string name="toastMal">The email or the password are wrong</string>
+    <string name="subtitulo">No + solo</string>
+
+    <string name="etOrigenhint">Origin</string>
+    <string name="etDestinohint">Destiny</string>
+    <string name="etNumeroPlazashint">Number of seats</string>
+    <string name="btnPublicar">Post</string>
+    <string name="toastOrigenVacio">The origin is empty</string>
+    <string name="toastDestinoVacio">The destiny is empty</string>
+    <string name="etFecha">Date</string>
+    <string name="ethintHora">Time</string>
+    <string name="etPrecio">Price</string>
+
+    <string name="etConductorItem">Driver:</string>
+    <string name="etOrigenItem">Origin:</string>
+    <string name="etDestinoItem">Destiny:</string>
+    <string name="etNumPlazasItem">Empty seats:</string>
+    <string name="etFecha1Item">Date:</string>
+    <string name="etHora1Item">Time:</string>
+
+    <string name="textoDestino">Destiny</string>
+    <string name="textoOrigen">Origin</string>
+    <string name="textoFecha">Date</string>
+    <string name="textoHora">Time</string>
+    <string name="textoConductor">Driver</string>
+    <string name="numeroPlazas">Number of seats</string>
+    <string name="precio">Prices</string>
+    <string name="btnReserva">Reserve</string>
+    <string name="PlazasReservar">Seats to book </string>
+    <string name="ContadorMas">+</string>
+    <string name="ContadorMenos">-</string>
+
+    <string name="toastMuchasPlazas">They are not enought seats</string>
+    <string name="toastMenosPlazas">You need to book at least 1 place</string>
+
+    <string name="toastViajeCompleto">The trip is full</string>
+    <string name="toastPropioViaje">You can not book your own trip</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="MiPerfil">My profil</string>
+    <string name="MisViajes">My trips</string>
+
+    <string name="tituloCancelarReserva">Do you want to cancel you reservation?</string>
+    <string name="tvNoViajesPubli">THERE ARE NOT TRIPS PUBLISHED</string>
+    <string name="tvNoViajesReserva">THERE ARE NOT TRIPS RESERVED</string>
+    <string name="tvNoMisViajes">YOU HAVE NO TRIP CREATED</string>
+
+    <string name="btnDiaReservar">BOOK</string>
+    <string name="btnDiaCancelar">CANCEL</string>
+    <string name="btnDiaSI">YES</string>
+    <string name="btnDiaNO">NO</string>
+    <string name="tvNoMisReservas">YOU HAVE NO TRIP RESERVED</string>
+</resources>

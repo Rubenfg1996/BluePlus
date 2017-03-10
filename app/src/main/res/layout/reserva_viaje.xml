@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reserva_viaje"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.blue.ruben.blue.ReservaViaje">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textoConductor"
+                android:id="@+id/textoConductor"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="19sp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvConductorReserva"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textoOrigen"
+                android:layout_toEndOf="@+id/textoOrigen"
+                android:textSize="19sp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textoOrigen"
+                android:id="@+id/textoOrigen"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="19sp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvOrigenReserva"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textoOrigen"
+                android:layout_toEndOf="@+id/textoOrigen"
+                android:textSize="19sp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textDestino"
+                android:text="@string/textoDestino"
+                android:layout_below="@+id/textoOrigen"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="19sp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_alignTop="@+id/textDestino"
+                android:layout_toRightOf="@+id/textDestino"
+                android:layout_toEndOf="@+id/textDestino"
+                android:layout_marginLeft="0dp"
+                android:id="@+id/tvDestinoReserva"
+                android:textSize="19sp"
+                android:layout_weight="1"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textoFecha"
+                android:id="@+id/textFecha"
+                android:layout_below="@+id/textDestino"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:textSize="19sp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvFechaReserva"
+                android:layout_marginTop="10dp"
+                android:layout_alignTop="@+id/textFecha"
+                android:layout_toRightOf="@+id/textFecha"
+                android:layout_toEndOf="@+id/textFecha"
+                android:textSize="19sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textoHora"
+                android:id="@+id/textHora"
+                android:layout_below="@+id/textDestino"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:textSize="19sp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvHoraReserva"
+                android:layout_marginTop="10dp"
+                android:layout_alignTop="@+id/textFecha"
+                android:layout_toRightOf="@+id/textFecha"
+                android:layout_toEndOf="@+id/textFecha"
+                android:textSize="19sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/numeroPlazas"
+                android:id="@+id/textNumeroPlazas"
+                android:layout_below="@+id/textFecha"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:textSize="19sp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvNumeroPlazasReserva"
+                android:layout_alignTop="@+id/textNumeroPlazas"
+                android:layout_toEndOf="@+id/textNumeroPlazas"
+                android:layout_toRightOf="@+id/textNumeroPlazas"
+                android:layout_marginTop="10dp"
+                android:textSize="19sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/precio"
+                android:id="@+id/textPrecio"
+                android:layout_below="@+id/textNumeroPlazas"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:textSize="19sp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvPrecioReserva"
+                android:layout_alignTop="@+id/textPrecio"
+                android:layout_marginLeft="0dp"
+                android:layout_toLeftOf="@+id/tvDestinoReserva"
+                android:layout_toRightOf="@+id/textDestino"
+                android:layout_toEndOf="@+id/textDestino"
+                android:textSize="19sp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textPlazasReservar"
+                android:text="@string/PlazasReservar"
+                android:layout_marginTop="10dp"
+                android:textSize="19sp"
+                android:layout_alignBottom="@+id/etNumPlazasReservar"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/etNumPlazasReservar"
+                android:layout_below="@+id/tvPrecioReserva"
+                android:layout_marginTop="10dp"
+                android:textSize="19sp"
+                android:layout_weight="1"
+                android:layout_toRightOf="@+id/tvNumeroPlazasReserva"
+                android:layout_toEndOf="@+id/tvNumeroPlazasReserva"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
